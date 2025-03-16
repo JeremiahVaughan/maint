@@ -1,3 +1,3 @@
-module github.com/jeremiahvaughan/maint
+module github.com/JeremiahVaughan/maint
 
 go 1.24
