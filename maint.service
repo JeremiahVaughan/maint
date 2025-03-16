@@ -1,0 +1,12 @@
+[Unit]
+Description=Shows a maintenance page
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/piegarden/go/bin/maint
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
