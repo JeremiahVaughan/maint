@@ -22,6 +22,7 @@ func main() {
             return
         }
     })
+    http.HandleFunc("/health", func (w http.ResponseWriter, r *http.Request) {})
     err := http.ListenAndServe(":8000", nil)
     if err != nil {
         log.Fatalf("error, when starting http server. Error: %v", err)
