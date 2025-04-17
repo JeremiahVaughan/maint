@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/piegarden/go/bin/maint
+ExecStart=/home/piegarden/deploy/maint/app
 Restart=on-failure
 User=root
 
